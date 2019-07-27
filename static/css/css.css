@@ -46,7 +46,7 @@ img {
 }
 button, input { outline: none; }
 /**********导航**********/
-.logo { width: 80px; margin-top: 8px; float: left; }
+.logo { width: 80px; margin-top: 0px; float: left; }
 .header1 {
 	position: fixed;
 	z-index: 9999999999;
@@ -619,7 +619,7 @@ button, input { outline: none; }
 	top: 0;
 	left: 0;
 	width: 100%;
-	
+
 	background: url("../images/hn1.jpg") no-repeat center center;
 	filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity:0; opacity:0;
 	-webkit-transition: 0.3s linear;
@@ -658,7 +658,7 @@ button, input { outline: none; }
 	color: #fff; padding-top: 20px;
 	position: relative;
 	top: 60px;
-	/*opacity:0; 
+	/*opacity:0;
 filter:alpha(opacity=0);
 	-moz-opacity:0;
 	-khtml-opacity:0;
